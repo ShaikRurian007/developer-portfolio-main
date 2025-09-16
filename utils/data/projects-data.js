@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 1,
-    name: 'AI Powered Robotic Arm (AI Hand) | Realtime Voice Assistant',
+    name: 'AI Powered Robotic Arm | Realtime Voice Assistant',
     description: "Developed an AI-powered 6-DoF robotic arm control system with real-time voice-to-voice assistant using Azure OpenAI GPT-4 Realtime API. Features include WebRTC/WebSocket-based audio streaming, simulation & real robot execution modes, teaching via video demonstrations, path planning, object detection, and interactive manipulation. Includes session management, chat history, microfrontend architecture, and robust robot function calls.",
     tools: ['Azure OpenAI GPT-4 Realtime API','WebRTC','WebSocket','React','TypeScript','Python','REST APIs','Tailwind CSS','MUI','Zustand','Microfrontend','GraphQL','Docker','Redis','Computer Vision','Object Detection','Path Planning','GCP','Cloudflare Tunnel','GitHub'],
     role: 'Full Stack AI Engineer',

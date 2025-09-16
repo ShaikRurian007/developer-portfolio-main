@@ -33,7 +33,7 @@ async function page() {
         {
           blogs.map((blog, i) => (
             blog?.cover_image &&
-            // <BlogCard blog={blog} key={i} />
+            <BlogCard blog={blog} key={i} />
           ))
         }
       </div>
