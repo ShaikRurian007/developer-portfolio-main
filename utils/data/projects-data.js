@@ -1,40 +1,40 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: 'AI Powered Robotic Arm (AI Hand) | Realtime Voice Assistant',
+    description: "Developed an AI-powered 6-DoF robotic arm control system with real-time voice-to-voice assistant using Azure OpenAI GPT-4 Realtime API. Features include WebRTC/WebSocket-based audio streaming, simulation & real robot execution modes, teaching via video demonstrations, path planning, object detection, and interactive manipulation. Includes session management, chat history, microfrontend architecture, and robust robot function calls.",
+    tools: ['Azure OpenAI GPT-4 Realtime API','WebRTC','WebSocket','React','TypeScript','Python','REST APIs','Tailwind CSS','MUI','Zustand','Microfrontend','GraphQL','Docker','Redis','Computer Vision','Object Detection','Path Planning','GCP','Cloudflare Tunnel','GitHub'],
+    role: 'Full Stack AI Engineer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 2,
+    name: 'Fevl - AI Powered Management System',
+    description: "Built Fevl, an AI-driven management platform replacing traditional managers by automating task creation, risk analysis, coordination, and resource allocation. Uses DeepSeek-R1-8B (Ollama) for reasoning, FastAPI backend with MongoDB/PostgreSQL, Redis caching, and real-time updates via WebSocket. React frontend features AI chat, dashboards, and integrations with Slack, Jira, GitHub. Supports collaboration, AI-driven recommendations, modular microservices, mobile app support, and Dockerized deployment via Cloudflare Tunnel.",
+    tools: ['DeepSeek-R1-8B (Ollama)','FastAPI','React','TypeScript','Python','MongoDB','PostgreSQL','Redis','Docker','WebSocket','Celery','Slack API','Jira API','GitHub API','Cloudflare Tunnel','JWT','OAuth2.0','RBAC','Tailwind CSS','MUI','React Native','Nginx','Event-Driven Architecture'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 3,
+    name: 'AI Powered Real Estate',
+    description: "Developed an AI-based real estate app integrating OpenAI and Replicate API for assistants and image processing. Backend with Express, TypeScript, Mongoose, Stripe, and Azure Blob for storage. Frontend with NextJS, Formik, TailwindCSS. Features include role-based auth, subscription plans, cron scheduling, and payment integration.",
+    tools: ['React','Bootstrap','SCSS','Stripe','Express','TypeScript','MongoDB','Azure Blob','OpenAI API','Replicate AI','Cronjob','JWT'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: '',
+  },
+  {
+    id: 4,
+    name: 'GitHub User Finder',
+    description: "Built a GitHub User Finder with React allowing instant search of profiles with repositories, forks, followers, and following. Focused on API integration, state management, responsive UI, and real-time search. Deployed on Vercel with a clean and intuitive design.",
+    tools: ['React','GitHub REST API','Axios','Tailwind CSS','React Router','Vercel'],
+    role: 'Personal Project',
+    code: '',
+    demo: 'https://shaikrurian007.github.io/GitHub-User-Finder-001/',
+  }
 ];
 
 

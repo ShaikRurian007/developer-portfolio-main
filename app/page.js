@@ -1,6 +1,6 @@
 import { personalData } from "@/utils/data/personal-data";
 import AboutSection from "./components/homepage/about";
-import BlogClient from "./components/homepage/blog/client";
+// import BlogClient from "./components/homepage/blog/client";
 import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
 import Experience from "./components/homepage/experience";
@@ -32,7 +32,7 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
-      <BlogClient blogs={blogs} />
+      {/* <BlogClient blogs={blogs} /> */}
       <ContactSection />
     </div>
   );

@@ -50,7 +50,9 @@ function ContactForm() {
       toast.error(error?.response?.data?.message);
     } finally {
       setIsLoading(false);
-    };
+      // Redirect to WhatsApp link in a new tab
+      window.open("https://wa.link/2dg15l", "_blank");
+    }
   };
 
   return (
